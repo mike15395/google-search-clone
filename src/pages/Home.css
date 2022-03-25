@@ -1,0 +1,35 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-header{
+    display: flex;
+    justify-content: space-between;
+   padding: 20px;
+}
+
+.home-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.home-header-left >p{
+    margin: 10px;
+}
+
+.home-header-right{
+    display: flex;
+    align-items: center;
+    min-width: 400px;
+    justify-content: space-evenly;
+}
+.home-body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+   
+}
